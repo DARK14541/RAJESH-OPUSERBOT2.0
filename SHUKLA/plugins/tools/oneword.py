@@ -9,7 +9,7 @@ from ... import *
 from SHUKLA.modules.SHASHANK.data import OneWord
 
 
-FC = 2
+FC = 3
 
 
 @app.on_message(cdz(["randi"])  & (filters.me | filters.user(SUDO_USER)))
@@ -43,7 +43,7 @@ async def alt_mkc(xspam: Client, message: Message):
         pass
  
 
-   @app.on_message(cdz(["MADARCHOD"])  & (filters.me | filters.user(SUDO_USER)))
+   @app.on_message(cdz(["madarchod"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_mkc(xspam: Client, message: Message):    
     chat_id = message.chat.id
     RUSH = None
