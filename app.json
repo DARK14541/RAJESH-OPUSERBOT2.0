@@ -13,7 +13,7 @@
     "env": {
         "API_ID": {
             "description": "Enter your api id here.",
-            "value": "",
+            "value": "24132411",
             "required": true
         },
         "API_HASH": {
